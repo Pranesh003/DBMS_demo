@@ -15,5 +15,4 @@ public class BankMain {
 		transferBean.setDateOfTransaction(new java.util.Date());		 
 		System.out.println(bankService.transfer(transferBean));
 		}
-
 }
