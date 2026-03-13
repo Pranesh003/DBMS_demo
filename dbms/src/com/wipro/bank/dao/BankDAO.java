@@ -81,7 +81,6 @@ public float findBalance(String accountNumber)
 			e.printStackTrace();
 			return false;
 		}
-
 }
 	public boolean transferMoney(TransferBean transferBean) {
 		transferBean.setTransactionID(generateSequenceNumber());
