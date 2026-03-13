@@ -19,7 +19,7 @@ public class DButil {
 		catch(ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 			return null;
-}
+		}
 	
-}
+	}
 }
